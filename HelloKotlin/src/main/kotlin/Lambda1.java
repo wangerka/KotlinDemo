@@ -16,11 +16,8 @@ public class Lambda1 {
         Add1 a1 = (int a, int b) -> {
             return a + b;
         };
-//大括号只有一句 所以大括号可以删除
-        Add1 a2 = (int a, int b) -> {
-            return a + b;
-        };
-        System.out.println(a2.add(3,44));
+
+        System.out.println(a1.add(3,44));
     }
 
 }

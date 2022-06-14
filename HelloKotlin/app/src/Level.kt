@@ -1,6 +1,7 @@
 fun main() {
 
     level(100)
+    level(10066)
     level(93)
     level(59)
     level(86)
@@ -13,6 +14,7 @@ fun level(point:Int){
         in 80..89 -> println("B")
         in 70..79 -> println("C")
         in 60..69  -> println("D")
-        else -> println("E")
+        in 0..59  -> println("D")
+        else -> println("input error")
     }
 }

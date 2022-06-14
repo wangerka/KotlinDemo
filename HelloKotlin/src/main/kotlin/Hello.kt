@@ -20,8 +20,8 @@ fun isRunYear(year:Int){
 
 fun isRunYear1(year:Int){
     when{
-        year % 4 == 0 && year % 100 != 0 -> println("$year   is run nian")
-        year % 400 == 0 -> println("$year  is run nian")
+        year % 4 == 0 && year % 100 != 0 || year % 400 == 0 -> println("$year   is run nian")
+//        year % 400 == 0 -> println("$year  is run nian")
         else -> println("$year is not run nian")
     }
 }

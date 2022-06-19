@@ -1,7 +1,7 @@
 package biaozhunkuhanshu
 
 class Person(name:String,age:String,about:String){
-    val name:String = name
+    val name = name
 }
 
 fun main() {
